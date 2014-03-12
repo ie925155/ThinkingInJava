@@ -1,5 +1,7 @@
 package interfaces;
 
+
+//Multiple interfaces.
 interface CanFight {
 	void fight();
 }
@@ -19,6 +21,8 @@ class ActionCharacter {
 /*
  *  core reasons for interfaces is shown that
  *  upcast to more than on base type (and the flexibility that this provides)
+ *  and prevent the client programmer from making an object of this class and
+ *  to establish that it is only an interface
  */
 class Hero extends ActionCharacter 
 		   implements CanFight, CanSwim, CanFly{
