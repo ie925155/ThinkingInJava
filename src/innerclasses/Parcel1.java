@@ -22,7 +22,7 @@ public class Parcel1 {
 	System.out.println(d.readLabel());
   }
   public static void main(String[] args) {
-	Parcel1 p = new Parcel1();
+	Parcel1 p = new Parcel1();	
 	p.ship("Tasmania");
   }
 }
