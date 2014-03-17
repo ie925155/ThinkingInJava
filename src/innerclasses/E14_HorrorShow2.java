@@ -8,7 +8,7 @@ package innerclasses;
 
 import interfaces.HorrorShow;
 
-public class E14_HorrorShow2 {
+public class E14_HorrorShow2 {	
   public static void main(String[] args) {
 	DangerousMonster barney = new DangerousMonster() {
 	  public void menace() {}
