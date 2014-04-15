@@ -46,9 +46,9 @@ public class StormyInning extends Inning implements Storm{
   public void event() {} 
   // Overridden methods can throw inherited exceptions:
   public void atBat() throws PopFoul {}
-  public static void main(String[] args) {
+  public static void main(String[] args) {	  
 	try {
-	  StormyInning si = new StormyInning();
+	  StormyInning si = new StormyInning();	  
 	  si.atBat();
 	} catch(PopFoul e) {
 	  System.out.println("Pop foul");
