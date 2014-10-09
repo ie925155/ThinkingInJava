@@ -5,6 +5,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import typeinfo.pet2.Cymric;
+import typeinfo.pet2.Mutt;
+import typeinfo.pet2.Pug;
+import typeinfo.pet2.Rat;
+import typeinfo.pets.Cat;
+import typeinfo.pets.Dog;
+import typeinfo.pets.Person;
+import typeinfo.pets.Pet;
+
 public class MapOfList {
   public static Map<Person, List<? extends Pet>>
     petPeople = new HashMap<Person, List<? extends Pet>>();
